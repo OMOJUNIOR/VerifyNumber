@@ -6,14 +6,14 @@
 
 class PhoneVerify
 {
-    private $apiKey ; // = 'API_KEY';
+    private $apiKey = 'API_KEY';
 
     private $apiUrl = 'https://api.apilayer.com/';
 
-    public function __construct($apiUrl)
+    public function __construct()
     {
         $this->apiKey = $this->apiKey;
-        $this->apiUrl = $apiUrl;
+        $this->apiUrl = $this->apiUrl;
     }
 
   
